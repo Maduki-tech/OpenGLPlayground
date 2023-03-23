@@ -219,6 +219,9 @@ GLEW_LIBRARY_DEBUG:FILEPATH=GLEW_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 GLEW_LIBRARY_RELEASE:FILEPATH=GLEW_LIBRARY_RELEASE-NOTFOUND
 
+//The directory containing a CMake configuration file for GLFW.
+GLFW_DIR:PATH=GLFW_DIR-NOTFOUND
+
 //Path to a file.
 GLUT_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/GLUT.framework/Headers
 
@@ -227,6 +230,9 @@ GLUT_cocoa_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms
 
 //GLUT library for OSX
 GLUT_glut_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/GLUT.framework
+
+//The directory containing a CMake configuration file for GL.
+GL_DIR:PATH=GL_DIR-NOTFOUND
 
 //Value Computed by CMake
 HelloOpenGL_BINARY_DIR:STATIC=/Users/davidschluter/personal/openGL
